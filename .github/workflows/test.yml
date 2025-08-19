@@ -8,7 +8,7 @@ concurrency:
 on:
   push:
     # We intentionally don't run push on feature branches. See PR for rational.
-    branches: [unstable, stable]
+    branches: [unstable, stable, te/unknown_block_sync_peer_balancer_e2e_ci]
   pull_request:
   workflow_dispatch:
 
